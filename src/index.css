@@ -1,3 +1,8 @@
+:root {
+  --gradient: linear-gradient(to right, #AB5BFB, #7690EA);
+  --bg: #FAF6FF;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +10,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--bg);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6em;
 }
